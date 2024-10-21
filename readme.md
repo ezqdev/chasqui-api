@@ -1,6 +1,6 @@
-# Deliver Hero
+# Chasqui
 
-Deliver Hero es una aplicación FastAPI para la gestión de pedidos de un restaurante.
+Chasqui es una aplicación FastAPI para la gestión de pedidos de un restaurante.
 
 ## Requisitos previos
 
