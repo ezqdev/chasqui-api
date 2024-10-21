@@ -30,7 +30,7 @@ eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc  # o source ~/.zshrc si usas zsh
 ```
 
-### 2. Instalar Python y crear un entorno virtual
+### 2. Instalar Python
 
 ```bash
 # Instalar Python 3.10.2
@@ -38,12 +38,6 @@ pyenv install 3.10.2
 
 # Seleccionar la versión instalada como global
 pyenv global 3.10.2
-
-# Crear un entorno virtual para el proyecto
-python -m venv venv
-
-# Activar el entorno virtual
-source venv/bin/activate
 ```
 
 ### 3. Clonar el repositorio
@@ -56,6 +50,13 @@ cd deliver-hero
 ### 4. Instalar dependencias
 
 ```bash
+# Crear un entorno virtual para el proyecto
+python -m venv venv
+
+# Activar el entorno virtual
+source venv/bin/activate
+
+# Instalar dependencias
 pip install -r requirements.txt
 ```
 
