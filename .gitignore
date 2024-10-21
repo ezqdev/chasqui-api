@@ -1,0 +1,112 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de configuración local
+.env
+.env.*
+
+# Directorios y archivos de PyCharm
+.idea/
+*.iml
+
+# Directorios y archivos de VS Code
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de pytest
+.pytest_cache/
+
+# Archivos de cobertura
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Archivos de mypy
+.mypy_cache/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos específicos de FastAPI
+.fastapi
+
+# Archivos de Alembic (si no quieres versionar las migraciones)
+# alembic/versions/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Documentación generada
+docs/_build/
+
+# Archivos de configuración de PyInstaller
+*.manifest
+*.spec
+
+# Archivos de Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Archivos de SageMath
+*.sage.py
+
+# Archivos de dotenv
+.env
+
+# Archivos de virtualenv
+.venv
+venv/
+ENV/
+
+# Archivos de Spyder project
+.spyderproject
+.spyproject
+
+# Archivos de Rope project
+.ropeproject
+
+# Archivos de mkdocs
+/site
+
+# Archivos de mypy
+.mypy_cache/
