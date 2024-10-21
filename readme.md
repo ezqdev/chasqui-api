@@ -36,11 +36,14 @@ source ~/.bashrc  # o source ~/.zshrc si usas zsh
 # Instalar Python 3.10.2
 pyenv install 3.10.2
 
+# Seleccionar la versión instalada como global
+pyenv global 3.10.2
+
 # Crear un entorno virtual para el proyecto
-pyenv virtualenv 3.10.2 deliver-hero-env
+python -m venv venv
 
 # Activar el entorno virtual
-pyenv activate deliver-hero-env
+source venv/bin/activate
 ```
 
 ### 3. Clonar el repositorio
